@@ -7,7 +7,7 @@ function AnswerOptions(props) {
     <li className="answerOption">
       <input
         type="radio"
-        className="radioCustomButton"
+        className="radioButtonCustom"
         name="radioGroup"
         checked={props.answerType === props.answer}
         id={props.answerType}
@@ -15,7 +15,7 @@ function AnswerOptions(props) {
         disabled={props.answer}
         onChange={props.onAnswerSelected}
       />
-      <label className="radioCustomLabel" htmlFor={props.answerType}>
+      <label className="radioLabelCustom" htmlFor={props.answerType}>
         {props.answerContent}
       </label>
     </li>

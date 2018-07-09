@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "enzyme-adapter-react-16": "^1.1.1",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-addons-css-transition-group": "^15.3.0",
@@ -15,5 +16,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "react-addons-test-utils": "^15.6.2"
   }
 }
